@@ -8,7 +8,10 @@
     <form method="post">
         {% csrf_token %}
         <button name="new_room" type="submit">새로운 방</button>
-        <button name="enter_room" type="submit">방 번호 입력</button>
+        <br><br>
+        <label for="room_code">방 번호 입력:</label>
+        <input type="text" id="room_code" name="room_code">
+        <button name="enter_room" type="submit">입력</button>
     </form>
 </body>
 </html>
