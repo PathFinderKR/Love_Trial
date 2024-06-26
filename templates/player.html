@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player</title>
+</head>
+<body>
+    <h1>Player</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button name="single" type="submit">혼자 하기</button>
+        <button name="double" type="submit">둘이서 하기</button>
+    </form>
+</body>
+</html>

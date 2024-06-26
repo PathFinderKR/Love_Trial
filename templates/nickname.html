@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nickname</title>
+</head>
+<body>
+    <h1>Nickname</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="nickname">닉네임 입력:</label>
+        <input type="text" id="nickname" name="nickname" required>
+        <button type="submit">다음</button>
+    </form>
+</body>
+</html>

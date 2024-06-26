@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button name="new_room" type="submit">새로운 방</button>
+        <button name="enter_room" type="submit">방 번호 입력</button>
+    </form>
+</body>
+</html>
